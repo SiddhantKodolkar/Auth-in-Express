@@ -2,7 +2,7 @@ const express = require('express');
 const routes = require('./routes/users.js');
 const jwt = require('jsonwebtoken');
 const session = require('express-session')
-
+// This package will help us to maintain the authentication for the session.
 const app = express();
 const PORT =5000;
 
